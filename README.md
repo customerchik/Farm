@@ -1,12 +1,12 @@
 # Farm
-## Названачение
+## Назначение
 Основной микросервис проекта Farm
 
 Взаимодействует с микросервисами через gRPC
-- [Announcements](https://github.com/mongolianpes/Announcements) — управление объявлениями
-- [Images](https://github.com/mongolianpes/Images) — сохранение и выдача изображений пользователям сайта
-- [Messenger](https://github.com/mongolianpes/Messenger) — внутренний мессенджер
-- [Users](https://github.com/mongolianpes/Users) — управление пользователями
+- [Announcements](https://github.com/customerchik/Farm-Announcements) — управление объявлениями
+- [Images](https://github.com/customerchik/Farm-Images) — сохранение и выдача изображений пользователям сайта
+- [Messenger](https://github.com/customerchik/Farm-Messenger) — внутренний мессенджер
+- [Users](https://github.com/customerchik/Farm-Users) — управление пользователями
 
 ## Функционал
 - Принимает внешние запросы от пользователей, а после обработки возвращает им html странички или информацию в формате json
@@ -15,7 +15,7 @@
 - Микросервис отвечает за создание сессий для пользователей. В случае если сессии сохраненой на клиенте пользователя не существует перенаправляет на авторизацию
 
 ## Переменные окужения
-Для корректной работы необходимы переменные окружения:
+Для корректной работы необходимы переменные окружения: <br>
 DB_HOST - адрес БД<br>
 DB_PORT - порт БД<br>
 DB_USER - пользователей БД<br>
