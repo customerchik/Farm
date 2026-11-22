@@ -3,10 +3,10 @@
 Основной микросервис проекта Farm
 
 Взаимодействует с микросервисами через gRPC
-- [Announcements](https://github.com/mongolianpes/Farm-Announcements) — управление объявлениями
-- [Images](https://github.com/mongolianpes/Farm-Images) — сохранение и выдача изображений пользователям сайта
-- [Messenger](https://github.com/mongolianpes/Farm-Messenger) — внутренний мессенджер
-- [Users](https://github.com/mongolianpes/Farm-Users) — управление пользователями
+- [Announcements](https://github.com/customerchik/Farm-Announcements) — управление объявлениями
+- [Images](https://github.com/customerchik/Farm-Images) — сохранение и выдача изображений пользователям сайта
+- [Messenger](https://github.com/customerchik/Farm-Messenger) — внутренний мессенджер
+- [Users](https://github.com/customerchik/Farm-Users) — управление пользователями
 
 ## Функционал
 - Принимает внешние запросы от пользователей, а после обработки возвращает им html странички или информацию в формате json
